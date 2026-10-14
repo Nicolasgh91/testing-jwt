@@ -1,0 +1,33 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    background: #f5f7fb;
+    color: #182033
+}
+
+main {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 24px;
+    background: white;
+    border-radius: 16px
+}
+
+form {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+input, button {
+    padding: 9px 12px
+}
+
+li {
+    margin: 10px 0
+}
+
+.error {
+    color: #a00
+}
